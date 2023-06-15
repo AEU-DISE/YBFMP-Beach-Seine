@@ -30,7 +30,7 @@ options(dplyr.summarise.inform = FALSE)
 
 ```{r read input, echo = TRUE}
 # Read input data from JT ------------------------------------------------------
-df_fish <- read_csv(here("YBFMP-beach-seines","data","Bseine_Raw.csv"), show_col_types = FALSE)
+df_fish <- read_csv(here("multivariate-analyses","data","Bseine_Raw.csv"), show_col_types = FALSE)
 
 # Clean up column names
 df_fish <- df_fish %>% 
