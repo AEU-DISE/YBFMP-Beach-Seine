@@ -3,6 +3,8 @@ title: "YBFMP Beach Seine Analysis - 2011-2019"
 author: "Ted Flynn"
 date: "2023-05-16"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
